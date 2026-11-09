@@ -22,9 +22,7 @@ features=(
   "omarchy-dtp-start-menu|https://github.com/dtpietrzak/omarchy-dtp-start-menu.git|Opens the menus in the corner by the menu button"
   "omarchy-dtp-floating-titlebar-limits|https://github.com/dtpietrzak/omarchy-dtp-floating-titlebar-limits.git|Keeps floating title bars on the screen"
   "omarchy-dtp-workspace-swipe|https://github.com/dtpietrzak/omarchy-dtp-workspace-swipe.git|Four finger workspace swipe with a fade"
-  "omarchy-dtp-workspace-control|https://github.com/dtpietrzak/omarchy-dtp-workspace-control.git|Four finger swipe up for a workspace panel"
-  # With the other workspace features, ahead of personal settings.
-  "omarchy-dtp-workspace-styler|https://github.com/dtpietrzak/omarchy-dtp-workspace-styler.git|Workspace row: numbers, accent, comet, seven shown"
+  "omarchy-dtp-workspace-control|https://github.com/dtpietrzak/omarchy-dtp-workspace-control.git|Workspace panel on a four finger swipe, workspace numbers on the bar"
   # Personal settings last, so feature installers keep their own glue.
   "omarchy-dtp-config|https://github.com/dtpietrzak/omarchy-dtp-config.git|Personal settings: cursor, touchpad, text, bar"
 )
