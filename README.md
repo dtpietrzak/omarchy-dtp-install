@@ -21,7 +21,7 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 - `omarchy-dtp-start-menu`, opens Super+Space and Super+Alt+Space in the corner beside the menu button. It runs after the app list.
 - `omarchy-dtp-floating-titlebar-limits`, keeps a floating title bar on the screen.
 - `omarchy-dtp-workspace-swipe`, four finger workspace swipe with a fade and a 7.5% commit.
-- `omarchy-dtp-workspace-control`, four finger swipe up for a panel of workspaces and their windows, with drag and drop, and workspace numbers on the bar in place of the stock ones. Plugin id `dtpietrzak.workspacecontrol`.
+- `omarchy-dtp-workspace-control`, four finger swipe up for a panel of workspaces and their windows, with drag and drop, and workspace numbers on the bar in place of the stock ones. Plugin id `io.github.dtpietrzak.workspace-control`.
 - `omarchy-dtp-config`, personal settings: cursor size, touchpad, text size, bar, dock pins, and the Chromium video flag. It runs last.
 
 ## Screenshots
