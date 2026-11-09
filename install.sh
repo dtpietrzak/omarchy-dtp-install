@@ -21,6 +21,7 @@ features=(
   "omarchy-dtp-start-menu https://github.com/dtpietrzak/omarchy-dtp-start-menu.git"
   "omarchy-dtp-floating-titlebar-limits https://github.com/dtpietrzak/omarchy-dtp-floating-titlebar-limits.git"
   "omarchy-dtp-workspace-swipe https://github.com/dtpietrzak/omarchy-dtp-workspace-swipe.git"
+  "omarchy-dtp-workspace-control https://github.com/dtpietrzak/omarchy-dtp-workspace-control.git"
   # Personal settings last, so feature installers keep their own glue.
   "omarchy-dtp-config https://github.com/dtpietrzak/omarchy-dtp-config.git"
 )
