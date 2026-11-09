@@ -59,7 +59,7 @@ resolve_feature() {
   local sibling="$ROOT/../$name"
   local cached="$CHECKOUTS/$name"
 
-  if [[ -f $sibling/install.sh ]]; then
+  if [[ -f $sibling/install.sh || -f $sibling/manifest.json ]]; then
     realpath "$sibling"
     return
   fi
@@ -75,7 +75,7 @@ resolve_feature() {
     fi
   fi
 
-  if [[ -f $cached/install.sh ]]; then
+  if [[ -f $cached/install.sh || -f $cached/manifest.json ]]; then
     realpath "$cached"
     return
   fi
@@ -151,7 +151,12 @@ for i in "${!names[@]}"; do
   [[ -n ${wanted[$name]:-} ]] || continue
 
   dir="$(resolve_feature "$name" "${urls[i]}")"
-  [[ -f $dir/install.sh ]] || fail "$dir has no install.sh"
   echo "==> $name"
-  "$dir/install.sh"
+  # A plugin meant for the marketplace keeps its installer here instead.
+  if [[ -f $ROOT/installers/$name.sh ]]; then
+    "$ROOT/installers/$name.sh" "$dir"
+  else
+    [[ -f $dir/install.sh ]] || fail "$dir has no install.sh"
+    "$dir/install.sh"
+  fi
 done
