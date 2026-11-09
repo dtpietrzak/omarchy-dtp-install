@@ -1,6 +1,6 @@
 # omarchy-dtp-install
 
-Installs every `omarchy-dtp-<feature>` repo.
+Installs the `omarchy-dtp-<feature>` repos you pick.
 
 ```bash
 git clone https://github.com/dtpietrzak/omarchy-dtp-install.git
@@ -8,9 +8,11 @@ cd omarchy-dtp-install
 ./install.sh
 ```
 
-Each feature stays in its own repo and installs itself. This script runs those installers in the order listed in `install.sh`. Running it again leaves anything that already matches untouched.
+The script opens a checklist with every feature ticked. `x` toggles a feature, Enter continues, and you confirm before anything installs. To skip the checklist and install everything, for example from another script, run `./install.sh --all`.
 
-A checkout next to this repo is used when it is there. Otherwise the git URL on that feature's line is cloned into `~/.local/share/omarchy-dtp/<name>` and then installed. Add the next feature as `"omarchy-dtp-<feature> <git-url>"`.
+Each feature stays in its own repo and installs itself. This script runs the chosen installers in the order listed in `install.sh`. Running it again leaves anything that already matches untouched.
+
+A checkout next to this repo is used when it is there. Otherwise the git URL on that feature's line is cloned into `~/.local/share/omarchy-dtp/<name>` and then installed. Add the next feature as `"omarchy-dtp-<feature>|<git-url>|<description>"`.
 
 ## Features
 
