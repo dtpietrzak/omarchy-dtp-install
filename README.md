@@ -15,5 +15,5 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 ## Features
 
 - `omarchy-dtp-app-list`, the list launcher. Plugin id `dtpietrzak.applist`.
-- `omarchy-dtp-no-dock`, turns the dock off. It runs after the app list. There is no GitHub URL until that repo is pushed, so a checkout next to this one is required.
+- `omarchy-dtp-no-dock`, turns the dock off. It runs after the app list.
 - `omarchy-dtp-floating-titlebar-limits`, keeps a floating title bar on the screen.

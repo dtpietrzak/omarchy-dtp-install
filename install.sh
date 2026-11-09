@@ -16,7 +16,7 @@ CHECKOUTS="${XDG_DATA_HOME:-$HOME/.local/share}/omarchy-dtp"
 features=(
   "omarchy-dtp-app-list https://github.com/dtpietrzak/omarchy-dtp-app-list.git"
   # After the app list. A new dock clone would turn the dock back on.
-  "omarchy-dtp-no-dock"
+  "omarchy-dtp-no-dock https://github.com/dtpietrzak/omarchy-dtp-no-dock.git"
   "omarchy-dtp-floating-titlebar-limits https://github.com/dtpietrzak/omarchy-dtp-floating-titlebar-limits.git"
 )
 
