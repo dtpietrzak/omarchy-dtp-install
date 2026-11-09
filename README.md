@@ -26,7 +26,7 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 
 ### omarchy-dtp-app-list
 
-![The list launcher open beside the menu button](screenshots/app-list.png)
+![Searching the list launcher beside the menu button](screenshots/app-list.gif)
 
 ### omarchy-dtp-no-dock
 
@@ -34,19 +34,19 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 
 ### omarchy-dtp-start-menu
 
-![The Omarchy menu open in the corner beside the menu button](screenshots/start-menu.png)
+![The Omarchy menu opening in the corner beside the menu button](screenshots/start-menu.gif)
 
 ### omarchy-dtp-floating-titlebar-limits
 
-![A floating window held with its title bar at the top of the screen](screenshots/floating-titlebar-limits.png)
+![Dragging a floating window while its title bar stays on the screen](screenshots/floating-titlebar-limits.gif)
 
 ### omarchy-dtp-workspace-swipe
 
-![A window at 50% opacity, as it is at the swipe's commit point](screenshots/workspace-swipe.png)
+![Swiping between workspaces with four fingers, with the fade](screenshots/workspace-swipe.gif)
 
 ### omarchy-dtp-workspace-control
 
-![The workspace panel along the bottom with a mini view of each workspace](screenshots/workspace-control.png)
+![Opening the workspace panel and dragging windows onto workspaces](screenshots/workspace-control.gif)
 
 ### omarchy-dtp-config
 
