@@ -14,7 +14,7 @@ CHECKOUTS="${XDG_DATA_HOME:-$HOME/.local/share}/omarchy-dtp"
 
 # Install order. Add a repo as "omarchy-dtp-<feature> [git-url]".
 features=(
-  "omarchy-dtp-app-list"
+  "omarchy-dtp-app-list https://github.com/dtpietrzak/omarchy-dtp-app-list.git"
 )
 
 fail() {
