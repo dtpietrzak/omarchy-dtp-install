@@ -22,6 +22,7 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 - `omarchy-dtp-floating-titlebar-limits`, keeps a floating title bar on the screen.
 - `omarchy-dtp-workspace-swipe`, four finger workspace swipe with a fade and a 7.5% commit.
 - `omarchy-dtp-workspace-control`, four finger swipe up for a panel of workspaces and their windows, with drag and drop. Plugin id `dtpietrzak.workspacecontrol`.
+- `omarchy-dtp-workspace-styler`, workspace numbers with an accent marker, a comet switch, and seven workspaces shown. Plugin id `io.github.sanchokusika.workspace-styler`. It runs before the personal settings.
 - `omarchy-dtp-config`, personal settings: cursor size, touchpad, text size, bar, dock pins, and the Chromium video flag. It runs last.
 
 ## Screenshots
