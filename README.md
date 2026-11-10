@@ -20,6 +20,7 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 - `omarchy-dtp-no-dock`, turns the dock off. It runs after the app list.
 - `omarchy-dtp-menu`, the Omarchy menu restyled like the workspace control menus and placed in the corner. Plugin id `io.github.dtpietrzak.menu`. It runs before start-menu.
 - `omarchy-dtp-tray-auto-hide`, the system tray with its chevron hidden until the pointer is over the right side of the bar. Plugin id `io.github.dtpietrzak.tray-auto-hide`.
+- `omarchy-dtp-tray-the-stocks`, moves the agents, Bluetooth, Wi-Fi, sound and display buttons into the tray drawer. Edits `shell.json`; run after tray-auto-hide.
 - `omarchy-dtp-start-menu`, opens Super+Space and Super+Alt+Space in the corner beside the menu button. It runs after the app list.
 - `omarchy-dtp-floating-titlebar-limits`, keeps a floating title bar on the screen.
 - `omarchy-dtp-workspace-swipe`, four finger workspace swipe with a fade and a 7.5% commit.

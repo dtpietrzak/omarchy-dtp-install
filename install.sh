@@ -21,6 +21,7 @@ features=(
   # The restyled menu, before start-menu so start-menu leaves it alone.
   "omarchy-dtp-menu|https://github.com/dtpietrzak/omarchy-dtp-menu.git|Menu restyled like the workspace menus, in the corner"
   "omarchy-dtp-tray-auto-hide|https://github.com/dtpietrzak/omarchy-dtp-tray-auto-hide.git|System tray chevron that only shows when the pointer is over the right side of the bar"
+  "omarchy-dtp-tray-the-stocks|https://github.com/dtpietrzak/omarchy-dtp-tray-the-stocks.git|Agents, bluetooth, wifi, sound and display tuck into the tray drawer"
   # After the app list too. It patches the list's installed copy.
   "omarchy-dtp-start-menu|https://github.com/dtpietrzak/omarchy-dtp-start-menu.git|Opens the menus in the corner by the menu button"
   "omarchy-dtp-floating-titlebar-limits|https://github.com/dtpietrzak/omarchy-dtp-floating-titlebar-limits.git|Keeps floating title bars on the screen"
