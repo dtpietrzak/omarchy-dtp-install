@@ -29,6 +29,7 @@ features=(
   # After the app list too. It patches the list's installed copy.
   "omarchy-dtp-start-menu|https://github.com/dtpietrzak/omarchy-dtp-start-menu.git|Opens the menus in the corner by the menu button"
   "omarchy-dtp-floating-titlebar-limits|https://github.com/dtpietrzak/omarchy-dtp-floating-titlebar-limits.git|Keeps floating title bars on the screen"
+  "omarchy-dtp-windows|https://github.com/dtpietrzak/omarchy-dtp-windows.git|Focused window border at 50%, glass title bars as tall as the OS bar"
   "omarchy-dtp-workspace-swipe|https://github.com/dtpietrzak/omarchy-dtp-workspace-swipe.git|Four finger workspace swipe with a fade"
   "omarchy-dtp-workspace-control|https://github.com/dtpietrzak/omarchy-dtp-workspace-control.git|Workspace panel on a four finger swipe, workspace numbers on the bar"
   # Personal settings last, so feature installers keep their own glue.
