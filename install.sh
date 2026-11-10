@@ -19,6 +19,7 @@ features=(
   # After the app list. A new dock clone would turn the dock back on.
   "omarchy-dtp-no-dock|https://github.com/dtpietrzak/omarchy-dtp-no-dock.git|Turns the dock off"
   # The restyled menu, before start-menu so start-menu leaves it alone.
+  "omarchy-dtp-quick-options|https://github.com/dtpietrzak/omarchy-dtp-quick-options.git|Volume, screen and keyboard brightness in one bar button"
   "omarchy-dtp-bar|https://github.com/dtpietrzak/omarchy-dtp-bar.git|The bar with a thicker glassy background that the menus match"
   "omarchy-dtp-menu|https://github.com/dtpietrzak/omarchy-dtp-menu.git|Menu restyled like the workspace menus, in the corner"
   "omarchy-dtp-tray-auto-hide|https://github.com/dtpietrzak/omarchy-dtp-tray-auto-hide.git|System tray chevron that only shows when the pointer is over the right side of the bar"
