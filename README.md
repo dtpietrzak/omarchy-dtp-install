@@ -18,9 +18,11 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 
 - `omarchy-dtp-app-list`, the list launcher. Plugin id `dtpietrzak.applist`.
 - `omarchy-dtp-no-dock`, turns the dock off. It runs after the app list.
+- `omarchy-dtp-bar`, a copy of the Omarchy bar whose glassy background follows the theme's `glass-alpha`. Needs `omarchy-dtp-theme` for the value; falls back to stock.
 - `omarchy-dtp-menu`, the Omarchy menu restyled like the workspace control menus and placed in the corner. Plugin id `io.github.dtpietrzak.menu`. It runs before start-menu.
 - `omarchy-dtp-tray-auto-hide`, the system tray with its chevron hidden until the pointer is over the right side of the bar. Plugin id `io.github.dtpietrzak.tray-auto-hide`.
 - `omarchy-dtp-tray-the-stocks`, moves the agents, Bluetooth, Wi-Fi, sound and display buttons into the tray drawer. Edits `shell.json`; run after tray-auto-hide.
+- `omarchy-dtp-glass-popups`, the bar flyouts follow the bar's glassy, opaque or clear look, with blur. Pairs with the theme.
 - `omarchy-dtp-theme`, the shared look as an Omarchy theme (Tokyo Night plus shell overrides). Switches the machine to the `dtp` theme.
 - `omarchy-dtp-start-menu`, opens Super+Space and Super+Alt+Space in the corner beside the menu button. It runs after the app list.
 - `omarchy-dtp-floating-titlebar-limits`, keeps a floating title bar on the screen.
