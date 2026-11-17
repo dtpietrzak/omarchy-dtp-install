@@ -30,6 +30,7 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 - `omarchy-dtp-floating-titlebar-limits`, keeps a floating title bar on the screen.
 - `omarchy-dtp-windows`, the focused window border at 50% opacity and glass floating title bars as tall as the OS bar, with smaller text. Runs after the title bar limits.
 - `omarchy-dtp-workspace-swipe`, four finger workspace swipe with a fade and a 7.5% commit.
+- `omarchy-dtp-palm-rejection`, Apple-style palm rejection for MacBook trackpads: a palm resting on the trackpad while you type is ignored, and a finger still works. A small daemon with a systemd service; it asks for sudo and installs `base-devel` and `libevdev` to build it.
 - `omarchy-dtp-workspace-control`, four finger swipe up for a panel of workspaces and their windows, with drag and drop, and workspace numbers on the bar in place of the stock ones. Plugin id `io.github.dtpietrzak.workspace-control`.
 - `omarchy-dtp-config`, personal settings: cursor size, touchpad, text size, bar, dock pins, and the Chromium video flag. It runs last.
 
