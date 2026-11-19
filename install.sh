@@ -23,6 +23,8 @@ features=(
   "omarchy-dtp-battery-indicator|https://github.com/dtpietrzak/omarchy-dtp-battery-indicator.git|Horizontal battery with the charge number inside"
   "omarchy-dtp-bar|https://github.com/dtpietrzak/omarchy-dtp-bar.git|The bar with a thicker glassy background that the menus match"
   "omarchy-dtp-menu|https://github.com/dtpietrzak/omarchy-dtp-menu.git|Menu restyled like the workspace menus, in the corner"
+  # After the app list and the menu, whose stars pick the favorites.
+  "omarchy-dtp-favorites|https://github.com/dtpietrzak/omarchy-dtp-favorites.git|Favorite apps as icons in the middle of the bar; star them in the app list or menu"
   "omarchy-dtp-tray-auto-hide|https://github.com/dtpietrzak/omarchy-dtp-tray-auto-hide.git|System tray chevron that only shows when the pointer is over the right side of the bar"
   "omarchy-dtp-tray-the-stocks|https://github.com/dtpietrzak/omarchy-dtp-tray-the-stocks.git|Agents, bluetooth, wifi, sound and display tuck into the tray drawer"
   "omarchy-dtp-glass-popups|https://github.com/dtpietrzak/omarchy-dtp-glass-popups.git|Bar flyouts follow the bar's glassy or solid look"

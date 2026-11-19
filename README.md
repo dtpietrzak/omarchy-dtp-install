@@ -22,6 +22,7 @@ A checkout next to this repo is used when it is there. Otherwise the git URL on 
 - `omarchy-dtp-battery-indicator`, a larger horizontal battery with the charge number inside and the tip on the left. Plugin id `io.github.dtpietrzak.battery-indicator`. It takes the stock battery's place on the bar.
 - `omarchy-dtp-bar`, a copy of the Omarchy bar whose glassy background follows the theme's `glass-alpha`. Needs `omarchy-dtp-theme` for the value; falls back to stock.
 - `omarchy-dtp-menu`, the Omarchy menu restyled like the workspace control menus and placed in the corner. Plugin id `io.github.dtpietrzak.menu`. It runs before start-menu.
+- `omarchy-dtp-favorites`, an icon for each favorite app in the middle of the bar; a click opens the app. Star apps in the app list or the menu to add them; Files, Chromium and the default terminal to start. Plugin id `io.github.dtpietrzak.favorites`. Runs after the menu.
 - `omarchy-dtp-tray-auto-hide`, the system tray with its chevron hidden until the pointer is over the right side of the bar. Plugin id `io.github.dtpietrzak.tray-auto-hide`.
 - `omarchy-dtp-tray-the-stocks`, moves the agents, Bluetooth, Wi-Fi, sound and display buttons into the tray drawer. Edits `shell.json`; run after tray-auto-hide.
 - `omarchy-dtp-glass-popups`, the bar flyouts follow the bar's glassy, opaque or clear look, with blur. Pairs with the theme.
