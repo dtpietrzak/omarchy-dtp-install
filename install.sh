@@ -34,7 +34,7 @@ features=(
   "omarchy-dtp-floating-titlebar-limits|https://github.com/dtpietrzak/omarchy-dtp-floating-titlebar-limits.git|Keeps floating title bars on the screen"
   "omarchy-dtp-windows|https://github.com/dtpietrzak/omarchy-dtp-windows.git|Focused window border at 50%, glass title bars as tall as the OS bar"
   "omarchy-dtp-workspace-swipe|https://github.com/dtpietrzak/omarchy-dtp-workspace-swipe.git|Four finger workspace swipe with a fade"
-  "omarchy-dtp-palm-rejection|https://github.com/dtpietrzak/omarchy-dtp-palm-rejection.git|Apple-style palm rejection for MacBook trackpads"
+  "omarchy-dtp-better-trackpad|https://github.com/dtpietrzak/omarchy-dtp-better-trackpad.git|MacBook trackpad: palm rejection and inertial scrolling, as modules you pick"
   "omarchy-dtp-workspace-control|https://github.com/dtpietrzak/omarchy-dtp-workspace-control.git|Workspace panel on a four finger swipe, workspace numbers on the bar"
   # Personal settings last, so feature installers keep their own glue.
   "omarchy-dtp-config|https://github.com/dtpietrzak/omarchy-dtp-config.git|Personal settings: cursor, touchpad, text, bar"
@@ -157,6 +157,10 @@ else
     exit 0
   }
 fi
+
+# Feature installers with their own choices (better-trackpad's modules) take
+# everything without asking when this one was run with --all.
+export OMARCHY_DTP_INSTALL_ALL=$install_all
 
 # Walk the full list, so the install order holds whatever was picked.
 for i in "${!names[@]}"; do
